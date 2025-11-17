@@ -1,0 +1,17 @@
+# Ignore compiled executables
+*.exe
+*.out
+*.bin
+
+# Ignore build directories
+build/
+Debug/
+Release/
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore IDE-specific files (e.g., VS Code, CLion)
+.vscode/
+.idea/
