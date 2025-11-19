@@ -211,5 +211,6 @@ int main()
 {
     int n;
     cin >> n;
-    print10(n);
+    print5(n);
+    
 }
