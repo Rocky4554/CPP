@@ -1,6 +1,15 @@
 #include <vector>
 #include<iostream>
 using namespace std;
+// Approach (Prefix & Suffix Product)
+
+// Create output array ans
+
+// Fill it with prefix products (product of all elements to the left)
+
+// Then multiply with suffix products (product of all elements to the right)
+
+// This avoids division and runs in one pass forward + one backward.
 
 vector<int> productExceptSelf(vector<int>& nums) {
     int n = nums.size();
